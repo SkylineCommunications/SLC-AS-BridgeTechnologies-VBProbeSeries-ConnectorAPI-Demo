@@ -54,6 +54,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ethernet Streams", "Etherne
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OTT Streams", "OTT Streams", "{71FC049F-361F-4A20-8717-CC3C5CEFE43F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StreamEthCreateSingle", "StreamEthCreateSingle", "{FFFFF579-D2B3-4F39-BD02-A9AF5FB0AF42}"
+	ProjectSection(SolutionItems) = preProject
+		StreamEthCreateSingle.xml = StreamEthCreateSingle.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{E379EC68-C545-4B39-A41E-C6B74D5430AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamEthCreateSingle_2", "StreamEthCreateSingle_2\StreamEthCreateSingle_2.csproj", "{6F200139-B496-478C-8DE1-ECEA368F702C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +73,10 @@ Global
 		{1632D3E8-2750-4C1C-BA95-F54F81D3D9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1632D3E8-2750-4C1C-BA95-F54F81D3D9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1632D3E8-2750-4C1C-BA95-F54F81D3D9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F200139-B496-478C-8DE1-ECEA368F702C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F200139-B496-478C-8DE1-ECEA368F702C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F200139-B496-478C-8DE1-ECEA368F702C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F200139-B496-478C-8DE1-ECEA368F702C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +91,9 @@ Global
 		{F992EDCA-43E9-497B-8830-2E0DBEA85488} = {36E0E6E8-483E-4042-B45A-D4D023407236}
 		{8893A68D-1756-4186-A180-49BCB5E300BA} = {030FA097-4C58-468E-A29E-9B5536CFECAA}
 		{71FC049F-361F-4A20-8717-CC3C5CEFE43F} = {030FA097-4C58-468E-A29E-9B5536CFECAA}
+		{FFFFF579-D2B3-4F39-BD02-A9AF5FB0AF42} = {8893A68D-1756-4186-A180-49BCB5E300BA}
+		{E379EC68-C545-4B39-A41E-C6B74D5430AE} = {FFFFF579-D2B3-4F39-BD02-A9AF5FB0AF42}
+		{6F200139-B496-478C-8DE1-ECEA368F702C} = {E379EC68-C545-4B39-A41E-C6B74D5430AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD80FBCD-1772-4E26-8EE1-E5B83B22FDEA}
