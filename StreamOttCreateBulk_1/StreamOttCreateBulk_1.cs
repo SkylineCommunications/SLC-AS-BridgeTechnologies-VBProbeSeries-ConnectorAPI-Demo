@@ -45,18 +45,20 @@ Revision History:
 
 DATE		VERSION		AUTHOR			COMMENTS
 
-dd/mm/2023	1.0.0.1		XXX, Skyline	Initial version
+01/06/2023	1.0.0.1		SVD, Skyline	Initial version
 ****************************************************************************
 */
 
-namespace StreamOttCreateBulk_1
+namespace OttStreamCreateBulk
 {
 	using System;
-	using System.Collections.Generic;
-	using System.Globalization;
-	using System.Text;
+
 	using Skyline.DataMiner.Automation;
-	
+	using Skyline.DataMiner.ConnectorAPI.BridgeTechnologies.VBProbeSeries;
+	using Skyline.DataMiner.ConnectorAPI.BridgeTechnologies.VBProbeSeries.OTT;
+	using Skyline.DataMiner.Core.InterAppCalls.Common.CallBulk;
+	using Skyline.DataMiner.Core.InterAppCalls.Common.Shared;
+
 	/// <summary>
 	/// Represents a DataMiner Automation script.
 	/// </summary>
@@ -68,7 +70,104 @@ namespace StreamOttCreateBulk_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-	
+			// Get user input
+			////string elementName = "BT VB Probe Series";
+			string elementName = engine.GetScriptParam("Element Name").Value;
+
+			// Find Element
+			var element = engine.FindElement(elementName);
+			if (element == null)
+			{
+				engine.GenerateInformation($"Could not find element with name '{elementName}'.");
+				return;
+			}
+			else
+			{
+				engine.GenerateInformation($"Found element with name '{elementName}' - elemendID '{element.DmaId}/{element.ElementId}'");
+			}
+
+			// Build InterApp Message
+			var command = InterAppCallFactory.CreateNew();
+			command.Source = new Source("BT VB Series - InterAppDemo - Streams - OTT - Create Bulk");
+			command.ReturnAddress = new ReturnAddress(element.DmaId, element.ElementId, 9000001);
+
+			for (int i = 1; i <= 10; i++)
+			{
+				var message = new CreateOttChannel
+				{
+					ChannelData = MakeChannelData(i),
+					Source = new Source("BT VB Series - InterAppDemo - Streams - OTT - Create Bulk"),
+				};
+
+				command.Messages.Add(message);
+			}
+
+			// Process InterApp Message
+			foreach (var responseMessage in command.Send(Engine.SLNetRaw, element.DmaId, element.ElementId, 9000000, new TimeSpan(0, 0, 10), InterApp.KnownTypes))
+			{
+				if (responseMessage != null)
+				{
+					if (responseMessage is CreateOttChannelResult result)
+					{
+						engine.GenerateInformation(result.Description);
+					}
+					else
+					{
+						engine.GenerateInformation($"{nameof(responseMessage)} is not of expected type '{nameof(CreateOttChannelResult)}'.{Environment.NewLine}{responseMessage}");
+					}
+				}
+				else
+				{
+					engine.GenerateInformation($"{nameof(responseMessage)} is null.");
+				}
+			}
+		}
+
+		public OttChannelData MakeChannelData(int i)
+		{
+			var streamData = new OttChannelData
+			{
+				// General
+				Name = $"Demo_CreateBulk_{i}",
+				Address = $"239.0.20.1{i}",
+
+				Enable = false,
+				Engine = 0,
+				Page = 0,
+
+				Threshold = "Default",
+				VbcThreshold = "Default",
+				ContentThreshold = null,
+				MeasurementMode = 0,
+
+				PlayerUrl = null,
+
+				LiveTargetSegment = 0,
+
+				Rtmp = false,
+				RtmpLive = false,
+				NoMasterMonitor = false,
+				ExtractThumbnails = false,
+				Alignment = false,
+
+				// DRM
+				DrmSystem = 0,
+				DrmHostname = null,
+				DrmUsername = null,
+				DrmPassword = null,
+				AccountId = null,
+				ContentId = null,
+				CryptoPeriod = 0,
+				FixedKey = null,
+				FixedIv = null,
+
+				// Advanced manifest
+				AdvancedManifest = false,
+				Method = null,
+				ContentType = null,
+			};
+
+			return streamData;
 		}
 	}
 }

@@ -3,9 +3,9 @@
 	<Name>StreamOttDelete</Name>
 	<Description></Description>
 	<Type>Automation</Type>
-	<Author>SKYLINE2\SimonV</Author>
+	<Author>SKYLINE2\SVD</Author>
 	<CheckSets>FALSE</CheckSets>
-	<Folder></Folder>
+	<Folder>BT VB Probe Series - InterApp Demo</Folder>
 
 	<Protocols>
 	</Protocols>
@@ -14,6 +14,12 @@
 	</Memory>
 
 	<Parameters>
+		<ScriptParameter id="101" type="string" values="">
+			<Description>Element Name</Description>
+		</ScriptParameter>
+		<ScriptParameter id="102" type="string" values="">
+			<Description>Channel IDs</Description>
+		</ScriptParameter>
 	</Parameters>
 
 	<Script>

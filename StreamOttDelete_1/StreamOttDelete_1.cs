@@ -49,14 +49,16 @@ dd/mm/2023	1.0.0.1		XXX, Skyline	Initial version
 ****************************************************************************
 */
 
-namespace StreamOttDelete_1
+namespace OttStreamDelete
 {
 	using System;
-	using System.Collections.Generic;
-	using System.Globalization;
-	using System.Text;
+
 	using Skyline.DataMiner.Automation;
-	
+	using Skyline.DataMiner.ConnectorAPI.BridgeTechnologies.VBProbeSeries;
+	using Skyline.DataMiner.ConnectorAPI.BridgeTechnologies.VBProbeSeries.OTT;
+	using Skyline.DataMiner.Core.InterAppCalls.Common.CallBulk;
+	using Skyline.DataMiner.Core.InterAppCalls.Common.Shared;
+
 	/// <summary>
 	/// Represents a DataMiner Automation script.
 	/// </summary>
@@ -68,7 +70,56 @@ namespace StreamOttDelete_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-	
+			// Get user input
+			string elementName = engine.GetScriptParam("Element Name").Value;
+			string channelIDs = engine.GetScriptParam("Channel IDs").Value;
+
+			// Find Element
+			var element = engine.FindElement(elementName);
+			if (element == null)
+			{
+				engine.GenerateInformation($"Could not find element with name '{elementName}'.");
+				return;
+			}
+			else
+			{
+				engine.GenerateInformation($"Found element with name '{elementName}' - elemendID '{element.DmaId}/{element.ElementId}'");
+			}
+
+			// Build InterApp Message
+			var command = InterAppCallFactory.CreateNew();
+			command.Source = new Source("BT VB Series - Streams - OTT - Delete");
+			command.ReturnAddress = new ReturnAddress(element.DmaId, element.ElementId, 9000001);
+
+			var message = new DeleteOttChannels
+			{
+				////ChannelIds = new[] { "5", "6", "7" },
+				ChannelIds = channelIDs.Split(';'),
+				DeleteAllOrNone = true,
+				Source = new Source("BT VB Series - Streams - OTT - Delete"),
+			};
+
+			command.Messages.Add(message);
+
+			// Process InterApp Message
+			foreach (var responseMessage in command.Send(Engine.SLNetRaw, element.DmaId, element.ElementId, 9000000, new TimeSpan(0, 0, 10), InterApp.KnownTypes))
+			{
+				if (responseMessage != null)
+				{
+					if (responseMessage is DeleteOttChannelsResult result)
+					{
+						engine.GenerateInformation(result.Description);
+					}
+					else
+					{
+						engine.GenerateInformation($"{nameof(responseMessage)} is not of expected type '{nameof(DeleteOttChannelsResult)}'.{Environment.NewLine}{responseMessage}");
+					}
+				}
+				else
+				{
+					engine.GenerateInformation($"{nameof(responseMessage)} is null.");
+				}
+			}
 		}
 	}
 }
