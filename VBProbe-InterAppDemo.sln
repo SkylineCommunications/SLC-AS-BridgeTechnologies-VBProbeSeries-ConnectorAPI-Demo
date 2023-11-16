@@ -233,6 +233,42 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{FB69
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThresholdPidEdit_1", "ThresholdPidEdit_1\ThresholdPidEdit_1.csproj", "{A8C6B386-8C2D-4763-9F3F-6DA359836AAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThresholdPidPresetCreateBulk", "ThresholdPidPresetCreateBulk", "{66D22B42-DBC0-4E56-947F-9B3C2656203B}"
+	ProjectSection(SolutionItems) = preProject
+		ThresholdPidPresetCreateBulk.xml = ThresholdPidPresetCreateBulk.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{216B10F0-1AB7-4A58-8C14-1A472D18A044}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThresholdPidPresetCreateBulk_1", "ThresholdPidPresetCreateBulk_1\ThresholdPidPresetCreateBulk_1.csproj", "{47CEAB04-DE2C-40E2-A4BE-4F72BEDCDD18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThresholdPidPresetCreateSingle", "ThresholdPidPresetCreateSingle", "{20AF6FF3-2B3B-4C03-BD00-3DC379DC7514}"
+	ProjectSection(SolutionItems) = preProject
+		ThresholdPidPresetCreateSingle.xml = ThresholdPidPresetCreateSingle.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{922470DF-4593-4577-969B-890A30D41A4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThresholdPidPresetCreateSingle_1", "ThresholdPidPresetCreateSingle_1\ThresholdPidPresetCreateSingle_1.csproj", "{42DE9BF3-0DCB-4897-B6E0-5E8B7A2405D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThresholdPidPresetDelete", "ThresholdPidPresetDelete", "{87B53E25-3E12-4618-AEFE-9D9C83FCEDA9}"
+	ProjectSection(SolutionItems) = preProject
+		ThresholdPidPresetDelete.xml = ThresholdPidPresetDelete.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{154F65CB-87B7-44D7-B34D-9C81D53CDBF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThresholdPidPresetDelete_1", "ThresholdPidPresetDelete_1\ThresholdPidPresetDelete_1.csproj", "{C2823289-70BF-4D58-BE50-80CCCB1910EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThresholdPidPresetEdit", "ThresholdPidPresetEdit", "{214C1741-099B-40DD-A5DC-1A79A121BB76}"
+	ProjectSection(SolutionItems) = preProject
+		ThresholdPidPresetEdit.xml = ThresholdPidPresetEdit.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{52C6FCC1-EECB-4666-8799-48C035871B50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThresholdPidPresetEdit_1", "ThresholdPidPresetEdit_1\ThresholdPidPresetEdit_1.csproj", "{38B1EDA0-E953-4FD1-B74A-FBD7534D29EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -319,6 +355,22 @@ Global
 		{A8C6B386-8C2D-4763-9F3F-6DA359836AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C6B386-8C2D-4763-9F3F-6DA359836AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C6B386-8C2D-4763-9F3F-6DA359836AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47CEAB04-DE2C-40E2-A4BE-4F72BEDCDD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CEAB04-DE2C-40E2-A4BE-4F72BEDCDD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CEAB04-DE2C-40E2-A4BE-4F72BEDCDD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CEAB04-DE2C-40E2-A4BE-4F72BEDCDD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DE9BF3-0DCB-4897-B6E0-5E8B7A2405D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DE9BF3-0DCB-4897-B6E0-5E8B7A2405D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DE9BF3-0DCB-4897-B6E0-5E8B7A2405D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DE9BF3-0DCB-4897-B6E0-5E8B7A2405D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2823289-70BF-4D58-BE50-80CCCB1910EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2823289-70BF-4D58-BE50-80CCCB1910EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2823289-70BF-4D58-BE50-80CCCB1910EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2823289-70BF-4D58-BE50-80CCCB1910EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B1EDA0-E953-4FD1-B74A-FBD7534D29EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B1EDA0-E953-4FD1-B74A-FBD7534D29EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B1EDA0-E953-4FD1-B74A-FBD7534D29EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B1EDA0-E953-4FD1-B74A-FBD7534D29EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -394,6 +446,18 @@ Global
 		{9EF7F494-0C76-4E9D-87D8-14322B6EB77C} = {59E8B02F-E8B1-4473-902A-C3D9E41FFA1B}
 		{FB69EC64-2B67-475D-AB90-66BEC8D37334} = {9EF7F494-0C76-4E9D-87D8-14322B6EB77C}
 		{A8C6B386-8C2D-4763-9F3F-6DA359836AAE} = {FB69EC64-2B67-475D-AB90-66BEC8D37334}
+		{66D22B42-DBC0-4E56-947F-9B3C2656203B} = {E240D908-9D1E-4D1C-8DE9-1545DFD2440D}
+		{216B10F0-1AB7-4A58-8C14-1A472D18A044} = {66D22B42-DBC0-4E56-947F-9B3C2656203B}
+		{47CEAB04-DE2C-40E2-A4BE-4F72BEDCDD18} = {216B10F0-1AB7-4A58-8C14-1A472D18A044}
+		{20AF6FF3-2B3B-4C03-BD00-3DC379DC7514} = {E240D908-9D1E-4D1C-8DE9-1545DFD2440D}
+		{922470DF-4593-4577-969B-890A30D41A4F} = {20AF6FF3-2B3B-4C03-BD00-3DC379DC7514}
+		{42DE9BF3-0DCB-4897-B6E0-5E8B7A2405D6} = {922470DF-4593-4577-969B-890A30D41A4F}
+		{87B53E25-3E12-4618-AEFE-9D9C83FCEDA9} = {E240D908-9D1E-4D1C-8DE9-1545DFD2440D}
+		{154F65CB-87B7-44D7-B34D-9C81D53CDBF5} = {87B53E25-3E12-4618-AEFE-9D9C83FCEDA9}
+		{C2823289-70BF-4D58-BE50-80CCCB1910EC} = {154F65CB-87B7-44D7-B34D-9C81D53CDBF5}
+		{214C1741-099B-40DD-A5DC-1A79A121BB76} = {E240D908-9D1E-4D1C-8DE9-1545DFD2440D}
+		{52C6FCC1-EECB-4666-8799-48C035871B50} = {214C1741-099B-40DD-A5DC-1A79A121BB76}
+		{38B1EDA0-E953-4FD1-B74A-FBD7534D29EB} = {52C6FCC1-EECB-4666-8799-48C035871B50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD80FBCD-1772-4E26-8EE1-E5B83B22FDEA}
