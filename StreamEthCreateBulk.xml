@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <DMSScript options="272" xmlns="http://www.skyline.be/automation">
-	<Name>StreamEthCreateBulk</Name>
+	<Name>VBProbe-InterAppDemo-StreamEthCreateBulk</Name>
 	<Description>Demo script on how to create multiple Ethernet streams on a Bridge Technologies VB Probe using the InterAppCalls exposed by the Bridge Technologies VB Probe Series connector.</Description>
 	<Type>Automation</Type>
 	<Author>SKYLINE2\SVD</Author>
