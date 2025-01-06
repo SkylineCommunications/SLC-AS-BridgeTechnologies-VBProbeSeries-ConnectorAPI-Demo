@@ -2,7 +2,7 @@
 
 ## About
 
-This repository serves as a guide on consuming Inter App Calls exposed by Bridge Technologies VB Probe Series connector.
+This repository serves as a guide on consuming [Inter App Calls NuGet package](https://www.nuget.org/packages/Skyline.DataMiner.ConnectorAPI.BridgeTechnologies.VBProbeSeries) exposed by [Bridge Technologies VB Probe Series connector](https://catalog.dataminer.services/details/f1fa63a6-62b8-4817-82b6-7f37efb7371f).
 <!--
 ## Projects
 
