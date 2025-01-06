@@ -45,7 +45,8 @@ Revision History:
 
 DATE		VERSION		AUTHOR			COMMENTS
 
-dd/mm/2023	1.0.0.1		XXX, Skyline	Initial version
+01/06/2023	1.0.0.1		SVD, Skyline	Initial version
+06/01/2025	2.0.0.1		AKU, Skyline	Alignments with the new ConnectorAPI major version
 ****************************************************************************
 */
 
