@@ -72,7 +72,7 @@ namespace DeleteEthStreams
 		{
 			// Get user input
 			string elementName = engine.GetScriptParam("Element Name").Value;
-			string streamKeys = engine.GetScriptParam("Stream Keys").Value;
+			string tuningIds = engine.GetScriptParam("Tuning IDs").Value;
 
 			// Find Element
 			var element = engine.FindElement(elementName);
@@ -93,8 +93,7 @@ namespace DeleteEthStreams
 
 			var message = new DeleteEthStreams
 			{
-				////StreamKeys = new[] { "100.529", "100.530", "100.531" },
-				StreamKeys = streamKeys.Split(';'),
+				TuningIds = tuningIds.Split(';'),
 				DeleteAllOrNone = true,
 				Source = new Source("BT VB Series - Streams - Eth - Delete"),
 			};

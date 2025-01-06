@@ -72,7 +72,7 @@ namespace EthStreamEdit
 		{
 			// Get user input
 			string elementName = engine.GetScriptParam("Element Name").Value;
-			string streamKey = engine.GetScriptParam("Stream Key").Value;
+			string tuningId = engine.GetScriptParam("Tuning ID").Value;
 
 			// Find Element
 			var element = engine.FindElement(elementName);
@@ -93,7 +93,7 @@ namespace EthStreamEdit
 
 			var message = new EditEthStream
 			{
-				Key = streamKey,
+				TuningId = tuningId,
 				////Key = "100.529",
 				StreamData = MakeStreamData(),
 				Source = new Source("BT VB Series - InterAppDemo - Streams - Eth - Edit"),
