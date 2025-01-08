@@ -73,7 +73,7 @@ namespace OttStreamDelete
 		{
 			// Get user input
 			string elementName = engine.GetScriptParam("Element Name").Value;
-			string tuningIDs = engine.GetScriptParam("Tuning IDs").Value;
+			string channelKeys = engine.GetScriptParam("Channel Keys").Value;
 
 			// Find Element
 			var element = engine.FindElement(elementName);
@@ -94,7 +94,7 @@ namespace OttStreamDelete
 
 			var message = new DeleteOttChannels
 			{
-				TuningIds = tuningIDs.Split(';'),
+				ChannelKeys = channelKeys.Split(';'),
 				DeleteAllOrNone = true,
 				Source = new Source("BT VB Series - Streams - OTT - Delete"),
 			};

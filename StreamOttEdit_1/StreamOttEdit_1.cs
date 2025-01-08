@@ -73,7 +73,7 @@ namespace OttStreamEdit_1
 		{
 			// Get user input
 			string elementName = engine.GetScriptParam("Element Name").Value;
-			string tuningId = engine.GetScriptParam("Tuning ID").Value;
+			string channelKey = engine.GetScriptParam("Channel Key").Value;
 
 			// Find Element
 			var element = engine.FindElement(elementName);
@@ -94,7 +94,7 @@ namespace OttStreamEdit_1
 
 			var message = new EditOttChannel
 			{
-				TuningId = tuningId,
+				ChannelKey = channelKey,
 				ChannelData = MakeChannelData(),
 				Source = new Source("BT VB Series - InterAppDemo - Streams - OTT - Edit"),
 			};

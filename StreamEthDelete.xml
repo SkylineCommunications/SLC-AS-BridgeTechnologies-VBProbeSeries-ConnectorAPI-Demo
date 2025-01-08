@@ -18,7 +18,7 @@
 			<Description>Element Name</Description>
 		</ScriptParameter>
 		<ScriptParameter id="102" type="string" values="">
-			<Description>Tuning IDs</Description>
+			<Description>Stream Keys</Description>
 		</ScriptParameter>
 	</Parameters>
 
