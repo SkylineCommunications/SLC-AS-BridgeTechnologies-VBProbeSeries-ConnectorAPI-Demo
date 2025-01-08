@@ -20,7 +20,7 @@
 #   - User-Defined API: If the Catalog item is a DataMiner Automation script designed as a user-defined API.
 #   - Visual Overview: If the Catalog item is a Microsoft Visio design.
 # 
-type: Learning & Sample
+type: Automation
 # [Required]
 # The ID of the Catalog item.
 # All registered versions for the same ID are shown together in the Catalog.
@@ -58,10 +58,7 @@ documentation_url:
 # Format: 'name <email> (url)'
 #   The name is required; max 256 characters.
 #   The email and url are optional, and should be in valid email/URL formats.
-owners:
-  - email: simon.vandamme@skyline.be
-    name: Simon Vandamme
-    url: 
+owners: []
 # [Optional]
 # Tags that allow you to categorize your Catalog items.
 #   Max number of tags: 5
@@ -71,3 +68,4 @@ owners:
 tags:
   - dataminer
   - dataminer-automation-script
+  - dataminer-learning-sample
