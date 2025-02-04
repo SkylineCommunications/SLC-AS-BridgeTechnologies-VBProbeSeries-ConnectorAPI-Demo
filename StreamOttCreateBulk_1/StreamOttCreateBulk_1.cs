@@ -132,7 +132,7 @@ namespace OttStreamCreateBulk
 				Address = $"239.0.20.1{i}",
 
 				Enable = false,
-				Engine = 0,
+				Engine = 1,
 				Page = 0,
 
 				Threshold = "Default",
