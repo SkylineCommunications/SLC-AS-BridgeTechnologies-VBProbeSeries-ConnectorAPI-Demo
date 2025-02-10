@@ -1,4 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net462</TargetFramework>
     <Company>Skyline Communications</Company>
@@ -21,6 +22,14 @@
     <PackageReference Include="Skyline.DataMiner.Dev.Automation" Version="10.1.0.6" />
   </ItemGroup>
   <ProjectExtensions>
-    <VisualStudio><UserProperties DisLinkedXmlFile="..\StreamEthEdit.xml" DisLinkId="2" DisProjectType="automationScriptProject" /></VisualStudio>
+    <VisualStudio>
+      <UserProperties DisLinkedXmlFile="..\StreamEthEdit.xml" DisLinkId="2" DisProjectType="automationScriptProject" />
+    </VisualStudio>
   </ProjectExtensions>
+  <ItemGroup>
+    <PackageReference Include="Skyline.DataMiner.Utils.SecureCoding.Analyzers" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>
