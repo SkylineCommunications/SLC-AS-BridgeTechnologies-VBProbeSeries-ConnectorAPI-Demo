@@ -104,7 +104,7 @@ namespace ThresholdPidPresetCreateBulk
 			}
 
 			// Process InterApp Message
-			foreach (var responseMessage in command.Send(Engine.SLNetRaw, element.DmaId, element.ElementId, 9000000, new TimeSpan(0, 0, 10), InterApp.KnownTypes))
+			foreach (var responseMessage in command.Send(Engine.SLNetRaw, element.DmaId, element.ElementId, 9_000_000, new TimeSpan(0, 0, 10), InterApp.KnownTypes))
 			{
 				if (responseMessage != null)
 				{

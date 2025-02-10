@@ -105,7 +105,7 @@ namespace ThresholdPidDelete
 				Engine.SLNetRaw,
 				element.DmaId,
 				element.ElementId,
-				9000000,
+				9_000_000,
 				new TimeSpan(0, 0, 10),
 				InterApp.KnownTypes))
 			{
