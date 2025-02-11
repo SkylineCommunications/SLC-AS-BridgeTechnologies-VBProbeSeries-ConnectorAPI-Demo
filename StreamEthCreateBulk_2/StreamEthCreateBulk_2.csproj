@@ -18,7 +18,7 @@
     <DefineConstants>$(DefineConstants);DCFv1;DBInfo;ALARM_SQUASHING</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Skyline.DataMiner.ConnectorAPI.BridgeTechnologies.VBProbeSeries" Version="2.0.0-tuningID" />
+    <PackageReference Include="Skyline.DataMiner.ConnectorAPI.BridgeTechnologies.VBProbeSeries" Version="2.0.0" />
     <PackageReference Include="Skyline.DataMiner.Dev.Automation" Version="10.1.0.6" />
   </ItemGroup>
   <ProjectExtensions>
