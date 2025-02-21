@@ -54,6 +54,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidDelete", "Alarm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidEdit", "Alarm Thresholds\PID Thresholds\ThresholdPidEdit\ThresholdPidEdit.csproj", "{29A35B1C-691C-46DA-92A6-A9F5C09FBEDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetCreateBulk", "Alarm Thresholds\PID Thresholds Presets\ThresholdPidPresetCreateBulk\ThresholdPidPresetCreateBulk.csproj", "{93A7D59F-5A70-4362-A9A1-EDCAABC7FC3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetCreateSingle", "Alarm Thresholds\PID Thresholds Presets\ThresholdPidPresetCreateSingle\ThresholdPidPresetCreateSingle.csproj", "{61062030-3C34-4BCF-82B1-28143ABFDF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetDelete", "Alarm Thresholds\PID Thresholds Presets\ThresholdPidPresetDelete\ThresholdPidPresetDelete.csproj", "{7EB91252-704A-40C6-B7F7-4F4C01ABDC7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetEdit", "Alarm Thresholds\PID Thresholds Presets\ThresholdPidPresetEdit\ThresholdPidPresetEdit.csproj", "{403399A9-EF94-496C-A9B4-7FBCF8CA6A48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -112,6 +120,22 @@ Global
 		{29A35B1C-691C-46DA-92A6-A9F5C09FBEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29A35B1C-691C-46DA-92A6-A9F5C09FBEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29A35B1C-691C-46DA-92A6-A9F5C09FBEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A7D59F-5A70-4362-A9A1-EDCAABC7FC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A7D59F-5A70-4362-A9A1-EDCAABC7FC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A7D59F-5A70-4362-A9A1-EDCAABC7FC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A7D59F-5A70-4362-A9A1-EDCAABC7FC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61062030-3C34-4BCF-82B1-28143ABFDF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61062030-3C34-4BCF-82B1-28143ABFDF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61062030-3C34-4BCF-82B1-28143ABFDF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61062030-3C34-4BCF-82B1-28143ABFDF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB91252-704A-40C6-B7F7-4F4C01ABDC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB91252-704A-40C6-B7F7-4F4C01ABDC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB91252-704A-40C6-B7F7-4F4C01ABDC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB91252-704A-40C6-B7F7-4F4C01ABDC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403399A9-EF94-496C-A9B4-7FBCF8CA6A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403399A9-EF94-496C-A9B4-7FBCF8CA6A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403399A9-EF94-496C-A9B4-7FBCF8CA6A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403399A9-EF94-496C-A9B4-7FBCF8CA6A48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,5 +160,9 @@ Global
 		{E25AA1A0-1BA1-451A-BFDD-C29D27022A5D} = {9D3D92F1-3FA3-4792-9066-82B096CF5D77}
 		{8979611D-D49D-4776-BCBE-BE8607CA54DC} = {9D3D92F1-3FA3-4792-9066-82B096CF5D77}
 		{29A35B1C-691C-46DA-92A6-A9F5C09FBEDD} = {9D3D92F1-3FA3-4792-9066-82B096CF5D77}
+		{93A7D59F-5A70-4362-A9A1-EDCAABC7FC3B} = {718230AA-9B8B-4A45-A63C-CEE83A72517F}
+		{61062030-3C34-4BCF-82B1-28143ABFDF09} = {718230AA-9B8B-4A45-A63C-CEE83A72517F}
+		{7EB91252-704A-40C6-B7F7-4F4C01ABDC7D} = {718230AA-9B8B-4A45-A63C-CEE83A72517F}
+		{403399A9-EF94-496C-A9B4-7FBCF8CA6A48} = {718230AA-9B8B-4A45-A63C-CEE83A72517F}
 	EndGlobalSection
 EndGlobal
