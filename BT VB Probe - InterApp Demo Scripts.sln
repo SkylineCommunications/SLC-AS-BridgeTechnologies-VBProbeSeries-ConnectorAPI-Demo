@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT VB Probe - InterApp Demo Scripts", "BT VB Probe - InterApp Demo Scripts\BT VB Probe - InterApp Demo Scripts.csproj", "{F75F4984-FECF-440E-92CD-B8967F030E41}"
 EndProject
@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ethernet Streams", "Etherne
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OTT Streams", "OTT Streams", "{23114716-1FDE-48FB-AEC2-4998724A1037}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEthCreateBulk", "Alarm Thresholds\Ethernet Thresholds\ThresholdEthCreateBulk\ThresholdEthCreateBulk.csproj", "{42F0C139-1D96-4CD0-B2E1-E251583B4E59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{F75F4984-FECF-440E-92CD-B8967F030E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F75F4984-FECF-440E-92CD-B8967F030E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F75F4984-FECF-440E-92CD-B8967F030E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F0C139-1D96-4CD0-B2E1-E251583B4E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F0C139-1D96-4CD0-B2E1-E251583B4E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F0C139-1D96-4CD0-B2E1-E251583B4E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F0C139-1D96-4CD0-B2E1-E251583B4E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +58,6 @@ Global
 		{718230AA-9B8B-4A45-A63C-CEE83A72517F} = {D97CEC35-44F0-40F0-9135-12D9D223B09F}
 		{A0705FEC-8385-4A2B-8C29-E3A12C557A9F} = {A0E1C395-88C9-4BBA-97C5-911EFCB0B6E1}
 		{23114716-1FDE-48FB-AEC2-4998724A1037} = {A0E1C395-88C9-4BBA-97C5-911EFCB0B6E1}
+		{42F0C139-1D96-4CD0-B2E1-E251583B4E59} = {89F6283F-5999-4B9E-B64F-687669AA54B2}
 	EndGlobalSection
 EndGlobal
