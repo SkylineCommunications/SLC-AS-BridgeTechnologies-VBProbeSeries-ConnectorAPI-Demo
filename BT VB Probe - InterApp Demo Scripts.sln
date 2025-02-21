@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT VB Probe - InterApp Demo Scripts", "BT VB Probe - InterApp Demo Scripts\BT VB Probe - InterApp Demo Scripts.csproj", "{F75F4984-FECF-440E-92CD-B8967F030E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{23402084-0076-496C-A63A-327C526915C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{608EF3AC-2474-49D3-B3F6-5145BE69FDB4}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alarm Thresholds", "Alarm Thresholds", "{D97CEC35-44F0-40F0-9135-12D9D223B09F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ethernet Thresholds", "Ethernet Thresholds", "{89F6283F-5999-4B9E-B64F-687669AA54B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ETR Thresholds", "ETR Thresholds", "{59342B4D-0D8B-4D15-BDBD-833AED731D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PID Thresholds", "PID Thresholds", "{9D3D92F1-3FA3-4792-9066-82B096CF5D77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PID Thresholds Presets", "PID Thresholds Presets", "{718230AA-9B8B-4A45-A63C-CEE83A72517F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Streams", "Streams", "{A0E1C395-88C9-4BBA-97C5-911EFCB0B6E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ethernet Streams", "Ethernet Streams", "{A0705FEC-8385-4A2B-8C29-E3A12C557A9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OTT Streams", "OTT Streams", "{23114716-1FDE-48FB-AEC2-4998724A1037}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F75F4984-FECF-440E-92CD-B8967F030E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75F4984-FECF-440E-92CD-B8967F030E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75F4984-FECF-440E-92CD-B8967F030E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75F4984-FECF-440E-92CD-B8967F030E41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{608EF3AC-2474-49D3-B3F6-5145BE69FDB4} = {23402084-0076-496C-A63A-327C526915C3}
+		{89F6283F-5999-4B9E-B64F-687669AA54B2} = {D97CEC35-44F0-40F0-9135-12D9D223B09F}
+		{59342B4D-0D8B-4D15-BDBD-833AED731D96} = {D97CEC35-44F0-40F0-9135-12D9D223B09F}
+		{9D3D92F1-3FA3-4792-9066-82B096CF5D77} = {D97CEC35-44F0-40F0-9135-12D9D223B09F}
+		{718230AA-9B8B-4A45-A63C-CEE83A72517F} = {D97CEC35-44F0-40F0-9135-12D9D223B09F}
+		{A0705FEC-8385-4A2B-8C29-E3A12C557A9F} = {A0E1C395-88C9-4BBA-97C5-911EFCB0B6E1}
+		{23114716-1FDE-48FB-AEC2-4998724A1037} = {A0E1C395-88C9-4BBA-97C5-911EFCB0B6E1}
+	EndGlobalSection
+EndGlobal
