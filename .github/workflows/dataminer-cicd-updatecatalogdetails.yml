@@ -22,8 +22,7 @@ jobs:
           DATAMINER_TOKEN: ${{ secrets.DATAMINER_TOKEN }}
         shell: pwsh
         run: |
-          dotnet publish `
-            "BT VB Probe - InterApp Demo Scripts.sln" `
+          dotnet publish "BT VB Probe - InterApp Demo Scripts.sln" `
             -p:Version="1.1.0.2" `
             -p:VersionComment="Updating details" `
             -p:CatalogPublishKeyName="DATAMINER_TOKEN" `
