@@ -15,8 +15,9 @@ on:
 
 jobs:
   Catalog:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Publish To Catalog
         env:
           DATAMINER_TOKEN: ${{ secrets.DATAMINER_TOKEN }}
