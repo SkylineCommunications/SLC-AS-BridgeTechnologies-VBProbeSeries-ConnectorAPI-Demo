@@ -17,4 +17,10 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
+	<!-- To exclude code duplication from from analysis -->
+	<ItemGroup>
+		<SonarQubeSetting Include="sonar.cpd.exclusions">
+			<Value>**</Value>
+		</SonarQubeSetting>
+	</ItemGroup>
 </Project>
