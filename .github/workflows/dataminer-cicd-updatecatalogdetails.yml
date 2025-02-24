@@ -14,9 +14,17 @@ on:
   workflow_dispatch:
 
 jobs:
-
   Catalog:
-    uses: SkylineCommunications/_ReusableWorkflows/.github/workflows/Update Catalog Details Workflow.yml@main
-    secrets:
-      # The API-key: generated in the DCP Admin app (https://admin.dataminer.services/) as authentication for a certain DataMiner Organization or Agent.
-      api-key: ${{ secrets.DATAMINER_TOKEN }}
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Publish To Catalog
+        env:
+          DATAMINER_TOKEN: ${{ secrets.DATAMINER_TOKEN }}
+        shell: pwsh
+        run: |
+          dotnet publish `
+            "BT VB Probe - InterApp Demo Scripts.sln" `
+            -p:Version="1.1.0.2" `
+            -p:VersionComment="Updating details" `
+            -p:CatalogPublishKeyName="DATAMINER_TOKEN" `
+            --configuration Release `
