@@ -75,10 +75,9 @@ internal class Script
             var installer = new AppInstaller(Engine.SLNetRaw, context);
             installer.InstallDefaultContent();
 
-            string setupContentPath = installer.GetSetupContentDirectory();
-
-            // Custom installation logic can be added here for each individual install package.
-        }
+			// Custom installation logic can be added here for each individual install package.
+			////string setupContentPath = installer.GetSetupContentDirectory();
+		}
         catch (Exception e)
         {
             engine.ExitFail($"Exception encountered during installation: {e}");
