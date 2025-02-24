@@ -15,7 +15,7 @@ on:
 
 jobs:
   Catalog:
-    runs-on: ubuntu-22.04
+    runs-on: windows-latest
     steps:
       - name: Publish To Catalog
         env:
