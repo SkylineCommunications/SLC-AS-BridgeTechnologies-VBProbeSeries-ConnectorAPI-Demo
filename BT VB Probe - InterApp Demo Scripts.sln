@@ -30,53 +30,53 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ethernet Streams", "Etherne
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OTT Streams", "OTT Streams", "{23114716-1FDE-48FB-AEC2-4998724A1037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEthCreateBulk", "Alarm Thresholds\Ethernet Thresholds\ThresholdEthCreateBulk\ThresholdEthCreateBulk.csproj", "{42F0C139-1D96-4CD0-B2E1-E251583B4E59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEtrCreateSingle", "ThresholdEtrCreateSingle\ThresholdEtrCreateSingle.csproj", "{F4083459-210B-4B7C-A7E8-CBDBC1D55C0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEthCreateSingle", "Alarm Thresholds\Ethernet Thresholds\ThresholdEthCreateSingle\ThresholdEthCreateSingle.csproj", "{8F7ABEF4-A9A3-4F19-8F4D-B15BF1F80318}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEtrDelete", "ThresholdEtrDelete\ThresholdEtrDelete.csproj", "{201BE650-18A4-4F4B-B5D4-945B530197DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEthDelete", "Alarm Thresholds\Ethernet Thresholds\ThresholdEthDelete\ThresholdEthDelete.csproj", "{637FDB02-C809-4DFF-A787-DAD85D017DE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEtrEdit", "ThresholdEtrEdit\ThresholdEtrEdit.csproj", "{D21AA6EA-97EB-49DF-ACDB-1BDCAB6A905E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEthEdit", "Alarm Thresholds\Ethernet Thresholds\ThresholdEthEdit\ThresholdEthEdit.csproj", "{4BDB6263-2D26-413E-A025-B2A800C1DD53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidCreateBulk", "ThresholdPidCreateBulk\ThresholdPidCreateBulk.csproj", "{ECF6A056-4BE8-43CE-9D7C-57FEB8521B0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEtrCreateBulk", "Alarm Thresholds\ETR Thresholds\ThresholdEtrCreateBulk\ThresholdEtrCreateBulk.csproj", "{5A0D8261-294D-4CF9-827F-B03A31D47581}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidCreateSingle", "ThresholdPidCreateSingle\ThresholdPidCreateSingle.csproj", "{E25AA1A0-1BA1-451A-BFDD-C29D27022A5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEtrCreateSingle", "Alarm Thresholds\ETR Thresholds\ThresholdEtrCreateSingle\ThresholdEtrCreateSingle.csproj", "{F4083459-210B-4B7C-A7E8-CBDBC1D55C0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidDelete", "ThresholdPidDelete\ThresholdPidDelete.csproj", "{8979611D-D49D-4776-BCBE-BE8607CA54DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEtrDelete", "Alarm Thresholds\ETR Thresholds\ThresholdEtrDelete\ThresholdEtrDelete.csproj", "{201BE650-18A4-4F4B-B5D4-945B530197DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidEdit", "ThresholdPidEdit\ThresholdPidEdit.csproj", "{29A35B1C-691C-46DA-92A6-A9F5C09FBEDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEtrEdit", "Alarm Thresholds\ETR Thresholds\ThresholdEtrEdit\ThresholdEtrEdit.csproj", "{D21AA6EA-97EB-49DF-ACDB-1BDCAB6A905E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetCreateBulk", "ThresholdPidPresetCreateBulk\ThresholdPidPresetCreateBulk.csproj", "{93A7D59F-5A70-4362-A9A1-EDCAABC7FC3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidCreateBulk", "Alarm Thresholds\PID Thresholds\ThresholdPidCreateBulk\ThresholdPidCreateBulk.csproj", "{ECF6A056-4BE8-43CE-9D7C-57FEB8521B0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetCreateSingle", "ThresholdPidPresetCreateSingle\ThresholdPidPresetCreateSingle.csproj", "{61062030-3C34-4BCF-82B1-28143ABFDF09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidCreateSingle", "Alarm Thresholds\PID Thresholds\ThresholdPidCreateSingle\ThresholdPidCreateSingle.csproj", "{E25AA1A0-1BA1-451A-BFDD-C29D27022A5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetDelete", "ThresholdPidPresetDelete\ThresholdPidPresetDelete.csproj", "{7EB91252-704A-40C6-B7F7-4F4C01ABDC7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidDelete", "Alarm Thresholds\PID Thresholds\ThresholdPidDelete\ThresholdPidDelete.csproj", "{8979611D-D49D-4776-BCBE-BE8607CA54DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetEdit", "ThresholdPidPresetEdit\ThresholdPidPresetEdit.csproj", "{403399A9-EF94-496C-A9B4-7FBCF8CA6A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidEdit", "Alarm Thresholds\PID Thresholds\ThresholdPidEdit\ThresholdPidEdit.csproj", "{29A35B1C-691C-46DA-92A6-A9F5C09FBEDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamEthCreateBulk", "StreamEthCreateBulk\StreamEthCreateBulk.csproj", "{B81F6079-F2F9-4103-BBB6-FD77F57C7E82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetCreateBulk", "Alarm Thresholds\PID Thresholds Presets\ThresholdPidPresetCreateBulk\ThresholdPidPresetCreateBulk.csproj", "{93A7D59F-5A70-4362-A9A1-EDCAABC7FC3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamEthCreateSingle", "StreamEthCreateSingle\StreamEthCreateSingle.csproj", "{5A2D5F04-FAA5-4F02-8355-2E15B4E1C143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetCreateSingle", "Alarm Thresholds\PID Thresholds Presets\ThresholdPidPresetCreateSingle\ThresholdPidPresetCreateSingle.csproj", "{61062030-3C34-4BCF-82B1-28143ABFDF09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamEthDelete", "StreamEthDelete\StreamEthDelete.csproj", "{5A1EF92F-4AB9-4EC3-86BC-09663C6FB890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetDelete", "Alarm Thresholds\PID Thresholds Presets\ThresholdPidPresetDelete\ThresholdPidPresetDelete.csproj", "{7EB91252-704A-40C6-B7F7-4F4C01ABDC7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamEthEdit", "StreamEthEdit\StreamEthEdit.csproj", "{E17B4C52-5A42-4D04-847B-8D2685E35BBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdPidPresetEdit", "Alarm Thresholds\PID Thresholds Presets\ThresholdPidPresetEdit\ThresholdPidPresetEdit.csproj", "{403399A9-EF94-496C-A9B4-7FBCF8CA6A48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamOttCreateBulk", "StreamOttCreateBulk\StreamOttCreateBulk.csproj", "{470AEF25-96C8-4AFE-8CE2-7519C5F3245F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamEthCreateBulk", "Streams\Ethernet Streams\StreamEthCreateBulk\StreamEthCreateBulk.csproj", "{B81F6079-F2F9-4103-BBB6-FD77F57C7E82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamOttCreateSingle", "StreamOttCreateSingle\StreamOttCreateSingle.csproj", "{1CAF360A-11B2-4A0F-8055-8885610BAD62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamEthCreateSingle", "Streams\Ethernet Streams\StreamEthCreateSingle\StreamEthCreateSingle.csproj", "{5A2D5F04-FAA5-4F02-8355-2E15B4E1C143}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamOttDelete", "StreamOttDelete\StreamOttDelete.csproj", "{B7B12C54-4B5C-4C2F-B683-19C093CC611A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamEthDelete", "Streams\Ethernet Streams\StreamEthDelete\StreamEthDelete.csproj", "{5A1EF92F-4AB9-4EC3-86BC-09663C6FB890}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamOttEdit", "StreamOttEdit\StreamOttEdit.csproj", "{8ADA0E37-1893-4ED9-A3DA-CC67BEE5136C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamEthEdit", "Streams\Ethernet Streams\StreamEthEdit\StreamEthEdit.csproj", "{E17B4C52-5A42-4D04-847B-8D2685E35BBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEthCreateBulk", "ThresholdEthCreateBulk\ThresholdEthCreateBulk.csproj", "{97B2355C-1165-4BB8-89A5-39DDF9189CE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamOttCreateBulk", "Streams\OTT Streams\StreamOttCreateBulk\StreamOttCreateBulk.csproj", "{470AEF25-96C8-4AFE-8CE2-7519C5F3245F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEthCreateSingle", "ThresholdEthCreateSingle\ThresholdEthCreateSingle.csproj", "{3CD315F9-3DA7-43A0-B900-D39473F12F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamOttCreateSingle", "Streams\OTT Streams\StreamOttCreateSingle\StreamOttCreateSingle.csproj", "{1CAF360A-11B2-4A0F-8055-8885610BAD62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEthDelete", "ThresholdEthDelete\ThresholdEthDelete.csproj", "{0A0A2F7E-9DEB-4B18-8310-93666141C0CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamOttDelete", "Streams\OTT Streams\StreamOttDelete\StreamOttDelete.csproj", "{B7B12C54-4B5C-4C2F-B683-19C093CC611A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEthEdit", "ThresholdEthEdit\ThresholdEthEdit.csproj", "{26EAA718-15E2-4A22-AA17-DC00B849B7A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamOttEdit", "Streams\OTT Streams\StreamOttEdit\StreamOttEdit.csproj", "{8ADA0E37-1893-4ED9-A3DA-CC67BEE5136C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdEtrCreateBulk", "ThresholdEtrCreateBulk\ThresholdEtrCreateBulk.csproj", "{CCB5D206-42F9-4B27-8B53-D879AA080BB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -88,26 +88,6 @@ Global
 		{F75F4984-FECF-440E-92CD-B8967F030E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F75F4984-FECF-440E-92CD-B8967F030E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F75F4984-FECF-440E-92CD-B8967F030E41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{42F0C139-1D96-4CD0-B2E1-E251583B4E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42F0C139-1D96-4CD0-B2E1-E251583B4E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42F0C139-1D96-4CD0-B2E1-E251583B4E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42F0C139-1D96-4CD0-B2E1-E251583B4E59}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8F7ABEF4-A9A3-4F19-8F4D-B15BF1F80318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F7ABEF4-A9A3-4F19-8F4D-B15BF1F80318}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F7ABEF4-A9A3-4F19-8F4D-B15BF1F80318}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F7ABEF4-A9A3-4F19-8F4D-B15BF1F80318}.Release|Any CPU.Build.0 = Release|Any CPU
-		{637FDB02-C809-4DFF-A787-DAD85D017DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{637FDB02-C809-4DFF-A787-DAD85D017DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{637FDB02-C809-4DFF-A787-DAD85D017DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{637FDB02-C809-4DFF-A787-DAD85D017DE0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4BDB6263-2D26-413E-A025-B2A800C1DD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BDB6263-2D26-413E-A025-B2A800C1DD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4BDB6263-2D26-413E-A025-B2A800C1DD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BDB6263-2D26-413E-A025-B2A800C1DD53}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A0D8261-294D-4CF9-827F-B03A31D47581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A0D8261-294D-4CF9-827F-B03A31D47581}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A0D8261-294D-4CF9-827F-B03A31D47581}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A0D8261-294D-4CF9-827F-B03A31D47581}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4083459-210B-4B7C-A7E8-CBDBC1D55C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4083459-210B-4B7C-A7E8-CBDBC1D55C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4083459-210B-4B7C-A7E8-CBDBC1D55C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -184,6 +164,26 @@ Global
 		{8ADA0E37-1893-4ED9-A3DA-CC67BEE5136C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ADA0E37-1893-4ED9-A3DA-CC67BEE5136C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ADA0E37-1893-4ED9-A3DA-CC67BEE5136C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B2355C-1165-4BB8-89A5-39DDF9189CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B2355C-1165-4BB8-89A5-39DDF9189CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B2355C-1165-4BB8-89A5-39DDF9189CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B2355C-1165-4BB8-89A5-39DDF9189CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD315F9-3DA7-43A0-B900-D39473F12F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD315F9-3DA7-43A0-B900-D39473F12F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD315F9-3DA7-43A0-B900-D39473F12F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD315F9-3DA7-43A0-B900-D39473F12F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0A2F7E-9DEB-4B18-8310-93666141C0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0A2F7E-9DEB-4B18-8310-93666141C0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0A2F7E-9DEB-4B18-8310-93666141C0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0A2F7E-9DEB-4B18-8310-93666141C0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EAA718-15E2-4A22-AA17-DC00B849B7A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EAA718-15E2-4A22-AA17-DC00B849B7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EAA718-15E2-4A22-AA17-DC00B849B7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EAA718-15E2-4A22-AA17-DC00B849B7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB5D206-42F9-4B27-8B53-D879AA080BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB5D206-42F9-4B27-8B53-D879AA080BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB5D206-42F9-4B27-8B53-D879AA080BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB5D206-42F9-4B27-8B53-D879AA080BB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -196,11 +196,6 @@ Global
 		{718230AA-9B8B-4A45-A63C-CEE83A72517F} = {D97CEC35-44F0-40F0-9135-12D9D223B09F}
 		{A0705FEC-8385-4A2B-8C29-E3A12C557A9F} = {A0E1C395-88C9-4BBA-97C5-911EFCB0B6E1}
 		{23114716-1FDE-48FB-AEC2-4998724A1037} = {A0E1C395-88C9-4BBA-97C5-911EFCB0B6E1}
-		{42F0C139-1D96-4CD0-B2E1-E251583B4E59} = {89F6283F-5999-4B9E-B64F-687669AA54B2}
-		{8F7ABEF4-A9A3-4F19-8F4D-B15BF1F80318} = {89F6283F-5999-4B9E-B64F-687669AA54B2}
-		{637FDB02-C809-4DFF-A787-DAD85D017DE0} = {89F6283F-5999-4B9E-B64F-687669AA54B2}
-		{4BDB6263-2D26-413E-A025-B2A800C1DD53} = {89F6283F-5999-4B9E-B64F-687669AA54B2}
-		{5A0D8261-294D-4CF9-827F-B03A31D47581} = {59342B4D-0D8B-4D15-BDBD-833AED731D96}
 		{F4083459-210B-4B7C-A7E8-CBDBC1D55C0E} = {59342B4D-0D8B-4D15-BDBD-833AED731D96}
 		{201BE650-18A4-4F4B-B5D4-945B530197DC} = {59342B4D-0D8B-4D15-BDBD-833AED731D96}
 		{D21AA6EA-97EB-49DF-ACDB-1BDCAB6A905E} = {59342B4D-0D8B-4D15-BDBD-833AED731D96}
@@ -220,5 +215,10 @@ Global
 		{1CAF360A-11B2-4A0F-8055-8885610BAD62} = {23114716-1FDE-48FB-AEC2-4998724A1037}
 		{B7B12C54-4B5C-4C2F-B683-19C093CC611A} = {23114716-1FDE-48FB-AEC2-4998724A1037}
 		{8ADA0E37-1893-4ED9-A3DA-CC67BEE5136C} = {23114716-1FDE-48FB-AEC2-4998724A1037}
+		{97B2355C-1165-4BB8-89A5-39DDF9189CE1} = {89F6283F-5999-4B9E-B64F-687669AA54B2}
+		{3CD315F9-3DA7-43A0-B900-D39473F12F0E} = {89F6283F-5999-4B9E-B64F-687669AA54B2}
+		{0A0A2F7E-9DEB-4B18-8310-93666141C0CE} = {89F6283F-5999-4B9E-B64F-687669AA54B2}
+		{26EAA718-15E2-4A22-AA17-DC00B849B7A4} = {89F6283F-5999-4B9E-B64F-687669AA54B2}
+		{CCB5D206-42F9-4B27-8B53-D879AA080BB8} = {59342B4D-0D8B-4D15-BDBD-833AED731D96}
 	EndGlobalSection
 EndGlobal
